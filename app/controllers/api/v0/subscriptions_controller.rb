@@ -1,4 +1,4 @@
-class SubscriptionsController < ApplicationController
+class Api::V0::SubscriptionsController < ApplicationController
   before_action :set_customer, only: [:create, :index, :cancel]   
   before_action :set_subscription, only: [:destroy]    
   
@@ -7,7 +7,7 @@ class SubscriptionsController < ApplicationController
     subscription = @customer.subscriptions.new(subscription_params)     
     subscription.tea = tea      
     if subscription.save       
-      render json: subscription, status: :created     
+      render json: SubscriptionSerializer.new(subscription), status: :created     
     else       
       render json: subscription.errors, status: :unprocessable_entity     
     end   
@@ -15,7 +15,7 @@ class SubscriptionsController < ApplicationController
   
   def destroy    
     if @subscription.update(status: 'cancelled')       
-      render json: @subscription, status: :ok     
+      render json: SubscriptionSerializer.new(@subscription), status: :ok     
     else       
       render json: @subscription.errors, status: :unprocessable_entity    
     end   
@@ -23,7 +23,7 @@ class SubscriptionsController < ApplicationController
   
   def index     
     subscriptions = @customer.subscriptions     
-    render json: subscriptions   
+    render json: SubscriptionSerializer.new(subscriptions)   
   end    
   
   private    
@@ -36,7 +36,7 @@ class SubscriptionsController < ApplicationController
   end    
   
   def subscription_params     
-    params.require(:subscription).permit(:title, :price, :status, :frequency, :tea_id)   
+    params.permit(:title, :price, :status, :frequency, :tea_id)   
   end
 
 end
