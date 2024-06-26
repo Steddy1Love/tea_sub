@@ -190,10 +190,10 @@
         "lines": [
           1,
           1,
-          1,
-          1,
-          1,
-          1,
+          6,
+          6,
+          6,
+          6,
           null,
           null
         ]
@@ -202,10 +202,10 @@
         "lines": [
           1,
           1,
-          1,
-          1,
-          1,
-          1,
+          26,
+          26,
+          26,
+          26,
           1,
           1,
           null,
@@ -216,10 +216,10 @@
         "lines": [
           1,
           1,
-          1,
-          1,
-          1,
-          1,
+          6,
+          6,
+          6,
+          6,
           null,
           null
         ]
@@ -245,32 +245,6 @@
           null
         ]
       },
-      "/Users/steddy/Dev/Turing/Mod_4/Intermission_work/tea_sub/app/controllers/api/v0/customers_controller.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          0,
-          null,
-          null,
-          null,
-          1,
-          null,
-          1,
-          1,
-          null,
-          null
-        ]
-      },
-      "/Users/steddy/Dev/Turing/Mod_4/Intermission_work/tea_sub/app/controllers/application_controller.rb": {
-        "lines": [
-          1,
-          null
-        ]
-      },
       "/Users/steddy/Dev/Turing/Mod_4/Intermission_work/tea_sub/app/models/customer.rb": {
         "lines": [
           1,
@@ -286,6 +260,100 @@
           null
         ]
       },
+      "/Users/steddy/Dev/Turing/Mod_4/Intermission_work/tea_sub/app/models/tea.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/steddy/Dev/Turing/Mod_4/Intermission_work/tea_sub/app/models/subscription.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null
+        ]
+      },
+      "/Users/steddy/Dev/Turing/Mod_4/Intermission_work/tea_sub/app/controllers/api/v0/subscriptions_controller.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          null,
+          3,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          0,
+          null,
+          null,
+          2,
+          null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          0,
+          null,
+          null,
+          null,
+          1,
+          null,
+          1,
+          5,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          4,
+          null,
+          null
+        ]
+      },
+      "/Users/steddy/Dev/Turing/Mod_4/Intermission_work/tea_sub/app/controllers/application_controller.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "/Users/steddy/Dev/Turing/Mod_4/Intermission_work/tea_sub/app/serializers/subscription_serializer.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/steddy/Dev/Turing/Mod_4/Intermission_work/tea_sub/app/serializers/tea_serializer.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null
+        ]
+      },
       "/Users/steddy/Dev/Turing/Mod_4/Intermission_work/tea_sub/app/serializers/customer_serializer.rb": {
         "lines": [
           1,
@@ -296,6 +364,6 @@
         ]
       }
     },
-    "timestamp": 1719434286
+    "timestamp": 1719438721
   }
 }
